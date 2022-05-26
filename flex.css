@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ============================General======================= */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.mid-header{
+    background-color: rgb(189, 185, 185);
+    border-radius: 8px;
+    padding: 12px;
+}
+.search{
+    padding-left: 195px;
+}
+.apps{
+    padding-left: 23px;
+}
+.main{
+    display: flex;
+}
+.plus{
+    border: 1px dotted grey;
+    border-radius: 22px;
+    padding: 12px 22px;
+}
+.plus i{
+    padding-right: 12px;
+}
+.aside-left{
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+}
+.aside-left a{
+    padding-bottom: 23px;
+    color: black;
+}
+.aside-left i{
+    padding-right: 12px;
+}
+/* .aside-left h2{
+    text-decoration: none;
+} */
+.storage{
+    border: 0.5px solid grey;
+    padding: 12px;
+    border-radius: 10px;
+}
+.top{
+    margin: 22px;
+}
+.head h1{
+    font-size: larger;
+    padding: 23px;
+    margin-left: 75px;
+}
+.head img{
+    height: 234px;
+    width: 234px;
+    margin: 23px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: aqua;
+    border-radius: 12px;
+}
+.aside-right{
+    display: flex;
+    flex-direction: column;
+    margin: 23px;
+}
+.aside-right i{
+    margin-bottom: 78px;
+}
